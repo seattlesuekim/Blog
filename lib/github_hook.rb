@@ -26,8 +26,6 @@ class GithubHook < Sinatra::Base
     load app.settings.app_file
 
     content_type :txt
-
-    # Pipe stderr to stdout to make sure we display everything.
     if settings.autopull?
       `git pull 2>&1`
     else
