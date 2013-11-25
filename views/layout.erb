@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Sue White's Blog</title>
-      <link rel="stylesheet" media="screen" href="/css/blog.css" />
-      <script type="text/javascript" src="/js/jquery.min.js"></script>
-      <script type="text/javascript" src="/js/jquery.timeago.js"></script>
-      <script type="text/javascript" src="/js/blog.js"></script>
-  </head>
+    <link rel="stylesheet" media="screen" href="/css/blog.css"/>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.timeago.js"></script>
+    <script type="text/javascript" src="/js/blog.js"></script>
+</head>
 
-  <!-- Sidebar -->
 
-  <aside class="large-3 columns">
+<body>
 
-      <div class="panel">
-          <h5>Find me</h5>
-          <p><ul>
-          <li>GitHub: <a href="https://github.com/suewhite" /></li>
-          <li>Twitter: <a href = "https://twitter.com/SeattleRubySue" /></li>
-      </ul></p>
-          <a href="#">Read More →</a>
-      </div>
+<!-- Sidebar -->
+<div class="sidebar">
+    <div class="headshot">
+        <img src="https://lh6.googleusercontent.com/-nA5NSWmpc9g/UpD7PEgPXbI/AAAAAAAAB6k/bBk0-uOXU0w/s521-no/IMG_9613.jpg" height="250" width="250">
+    </div>
+    <div class="findme"
+        <h3>Find me</h3>
+        <ul>
+            <li><a href="https://github.com/suewhite"><img src="http://busyflow.com/static/images/github-logo.png">GitHub</a></li>
+            <li><a href="https://twitter.com/SeattleRubySue"><img src="http://www.newunion.wisc.edu/images/twitter_icon.jpg">Twitter</a></li>
+            <li><a href="https://www.gittip.com/suewhite"><script data-gittip-username="suewhite"
+                        src="//gttp.co/v1.js"></script></a></li>
+        </ul>
+        <!-- route to index <a href="#">Read More →</a> -->
+    </div>
+</div>
 
-  </aside>
+<!-- End Sidebar -->
 
-  <!-- End Sidebar -->
-  <body>
-  <%= yield %>
-  </body>
+<div class="container">
+<%= yield %>
+</div>
+
+<div class="rightnavbar">
+    <ul>
+        <li>About</li>
+        <li>Ask</li>
+        <li>Contact</li>
+    </ul>
+</div>
+
+</body>
+
 </html>

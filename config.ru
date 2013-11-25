@@ -1,5 +1,7 @@
 $LOAD_PATH.unshift 'lib'
-require 'rack/cache'
-use Rack::Cache
-require 'blog'
+
+#require 'rack/cache'
+#use Rack::Cache
+
+require './lib/blog'
 run Blog

@@ -1,5 +1,18 @@
 body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-image: url('http://fc07.deviantart.net/fs37/f/2008/241/3/b/Steampunk_Wallpaper_by_MyScarredHeart.jpg');
+    background-repeat: repeat;
+}
+
+div.container {
+    display: inline-block;
+    float: left;
+    background-color: #DEC47E;
+    opacity: 0.8;
+    margin-right: auto;
+    width: 65%;
+    padding: 10px;
+    border: 1px gray;
 }
 
 article {
@@ -9,6 +22,33 @@ article {
     padding: 0 50px;
 }
 
+div.sidebar {
+    display: inline-block;
+    float: left;
+    width: 253px;
+    border: 1px lightskyblue solid;
+    text-align: center;
+}
+
+div.headshot {
+    display: inline-block;
+    padding: 1px;
+    border: 1px lightskyblue solid;
+}
+
+div.findme {
+    background-color: #DEC47E;
+    opacity: 0.8;
+    list-style-type: none;
+}
+
+div.rightnavbar {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px lightskyblue solid;
+    text-align: center;
+
+}
 header h1 {
     margin: 0
 }
