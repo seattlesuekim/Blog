@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.iml" afterPath="$PROJECT_DIR$/Blog.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles/blog2.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/blog.css" afterPath="$PROJECT_DIR$/public/css/blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/blog.rb" afterPath="$PROJECT_DIR$/lib/blog.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/blog1.md" afterPath="$PROJECT_DIR$/articles/blog1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.erb" afterPath="$PROJECT_DIR$/views/layout.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/post.erb" afterPath="$PROJECT_DIR$/views/post.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
@@ -18,14 +15,14 @@
     <file path="/blog.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385151320058" ignored="false" />
     <file path="/post.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385334548117" ignored="false" />
     <file path="/index.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385333639856" ignored="false" />
-    <file path="/layout.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385418848726" ignored="false" />
+    <file path="/layout.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385423806853" ignored="false" />
     <file path="/blog.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385072844562" ignored="false" />
-    <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385419609255" ignored="false" />
+    <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385424550981" ignored="false" />
     <file path="/github_hook.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385075085388" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385412471133" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385420480154" ignored="false" />
     <file path="/config.ru" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385151017277" ignored="false" />
     <file path="/blog1.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385082504742" ignored="false" />
-    <file path="/blog1.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385410825818" ignored="false" />
+    <file path="/blog1.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425656632" ignored="false" />
     <file path="$PROJECT_DIR$/../word count/word_count.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385142170308" ignored="false" />
     <file path="/word_count.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385143361207" ignored="false" />
     <file path="$PROJECT_DIR$/../word count/spec.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385142332172" ignored="false" />
@@ -46,6 +43,7 @@
     <file path="$PROJECT_DIR$/../sinatra_practice/views/post.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385334616525" ignored="false" />
     <file path="$PROJECT_DIR$/../sinatra_practice/views/animals.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385407601875" ignored="false" />
     <file path="/animals.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385407601875" ignored="false" />
+    <file path="/blog2.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425704421" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,9 +107,21 @@
       <file leaf-file-name="blog1.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/blog1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="4" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+            <state line="1" column="29" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog2.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/articles/blog2.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="31" selection-start="48" selection-end="48" vertical-scroll-proportion="0.028301887">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -145,16 +155,16 @@
       <file leaf-file-name="layout.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="17" selection-start="1290" selection-end="1290" vertical-scroll-proportion="-14.791667">
+            <state line="39" column="127" selection-start="1534" selection-end="1534" vertical-scroll-proportion="-13.541667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="26" selection-start="893" selection-end="893" vertical-scroll-proportion="0.4209559">
+            <state line="46" column="29" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,16 +195,17 @@
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/lib/blog.rb" />
         <option value="$PROJECT_DIR$/views/post.erb" />
-        <option value="$PROJECT_DIR$/articles/blog1.md" />
         <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/public/css/blog.css" />
+        <option value="$PROJECT_DIR$/articles/blog1.md" />
+        <option value="$PROJECT_DIR$/articles/blog2.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="102" />
-    <option name="y" value="23" />
-    <option name="width" value="758" />
+    <option name="x" value="16" />
+    <option name="y" value="22" />
+    <option name="width" value="1178" />
     <option name="height" value="705" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -569,14 +580,15 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="102" y="23" width="758" height="705" extended-state="0" />
+    <frame x="16" y="22" width="1178" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14693877" sideWeight="0.51623935" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13506493" sideWeight="0.51623935" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -586,7 +598,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -634,7 +645,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="first sinatra experience; content doesn't post." />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;a mock-up with little functionality&quot;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -651,18 +662,12 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="html template for blog" />
     <MESSAGE value="first sinatra experience; content doesn't post." />
+    <MESSAGE value="&quot;a mock-up with little functionality&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="9" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
@@ -729,16 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/blog1.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="4" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/post.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="30" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.625">
@@ -755,16 +750,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="17" selection-start="1290" selection-end="1290" vertical-scroll-proportion="-14.791667">
+        <state line="39" column="127" selection-start="1534" selection-end="1534" vertical-scroll-proportion="-13.541667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="26" selection-start="893" selection-end="893" vertical-scroll-proportion="0.4209559">
+        <state line="46" column="29" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/blog1.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="29" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/blog2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="31" selection-start="48" selection-end="48" vertical-scroll-proportion="0.028301887">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
