@@ -1,6 +1,6 @@
 body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    background-image: url('http://fc07.deviantart.net/fs37/f/2008/241/3/b/Steampunk_Wallpaper_by_MyScarredHeart.jpg');
+    background-image: url("../images/wallpaper.jpg");
     background-repeat: repeat;
 }
 
@@ -17,6 +17,7 @@ div.container {
     border-left: 3px #666666 solid;
     border-right: 3px #474747 solid;
     border-bottom: 3px #333333 solid;
+    box-shadow: 10px 10px 15px 10px black;
 
 }
 
@@ -36,6 +37,7 @@ div.sidebar {
     border-right: 3px #474747 solid;
     border-bottom: 3px #333333 solid;
     text-align: center;
+    box-shadow: 1px 1px 10px 10px black;
 }
 
 div.headshot {
@@ -43,33 +45,51 @@ div.headshot {
     padding: 1px;
 }
 
+div.headshot img {
+    width: 250px;
+    height: 250px;
+}
+
 div.findme {
     background-color: #ECBB70;
     opacity: 0.8;
+}
+
+div.findme ul{
     list-style-type: none;
 }
 
 div.rightnavbar {
-    margin-left: 0px;
-    list-style-type: none;
+    border-top: 2px #A3A3A3 solid;
+    border-left: 2px #666666 solid;
+    border-right: 2px #474747 solid;
+    border-bottom: 2px #333333 solid;
+    box-shadow: 1px 1px 8px 8px black;
+    margin-left: 20px;
     display: inline-block;
-
-}
-header h1 {
-    margin: 0
 }
 
-header a {
-    color: #000;
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #555;
+div.rightnavbar ul {
+    list-style-type: none;
 }
 
-header a:hover {
-    text-decoration: underline;
+
+h1 {
+    background-image: url('../images/header.jpg');
+    opacity: 0.7;
+    border: 3px black solid;
+    margin-bottom: 20px;
 }
 
-header time {
+div.h1text {
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-size: 50px;
+}
+
+time {
     font-size: 80%;
     color: #555
 }

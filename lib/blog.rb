@@ -1,12 +1,19 @@
+require 'rubygems'
 require 'sinatra/base'
+require 'sinatra/captcha'
 #require_relative 'github_hook'
 require 'ostruct'
 require 'time'
 require 'yaml'
 require 'redcarpet'
+require 'sequel'
+require 'httparty'
+require_relative 'captcha'
 
 class Blog < Sinatra::Base
 #  use GithubHook
+
+  enable :sessions
 
   set :root, File.expand_path('../../', __FILE__)
   set :articles, []
@@ -34,8 +41,35 @@ class Blog < Sinatra::Base
   articles.sort_by! { |article| article.date}
   articles.reverse!
 
+  before do
+    @db = Sequel.connect('sqLite://questions.db')
+    @questions = @db[:questions]
+  end
+
   get '/' do
     erb :index
+  end
+
+  # Sidebar Links: About, Ask, and Contact pages
+  get'/about' do
+    erb :about
+  end
+
+  get '/ask' do
+    erb :ask
+  end
+
+  post '/ask' do
+    @code = params[:code]
+    captcha = Captcha.new()
+    if captcha.check_captcha(@code)
+      @questions.insert(ask: params[:ask])
+    end
+    redirect back
+  end
+
+  get '/contact' do
+    erb :contact
   end
 end
 

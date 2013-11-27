@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" media="screen" href="/css/blog.css"/>
+</head>
+
+<body>
+
+<table>
+    <tr>
+        <th>Ask Me Anything:</th>
+        <td>
+
+            <!--Captcha -->
+            <form method="post">
+            <img src="http://captchator.com/captcha/image/8283">
+            <label for="message">Enter the code:</label>
+            <input type="text" name="code">
+
+            <input type="submit" value="Submit" name="submit">
+
+            </form>
+
+
+            <!-- Question Field -->
+            <form method="post" action='/ask'>
+                <input type="text" name="ask">
+                <input type="submit" value="Ask!">
+            </form>
+
+            <% unless @questions.nil? %>
+                <% @questions.each do |question| %>
+                    <ul>
+                        <li><%= question[:ask] %></li>
+                    </ul>
+                <% end %>
+            <% end %>
+        </td>
+        <th>Answers:</th>
+        <td>
+        <ul>
+          <!-- stuff will go here -->
+        </ul>
+        </td>
+    </tr>
+</table>
+
+
+<p><a href="/">Read My Blog</a></p>
+</body>
+
+</html>
