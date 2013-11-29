@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/about.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/ask.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/blog.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/captcha.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/contact.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/create_db.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.iml" afterPath="$PROJECT_DIR$/Blog.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/github_hook.rb" afterPath="$PROJECT_DIR$/lib/hook/github_hook.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about.erb" afterPath="$PROJECT_DIR$/views/about.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ask.erb" afterPath="$PROJECT_DIR$/views/ask.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/blog.css" afterPath="$PROJECT_DIR$/public/css/blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/blog.rb" afterPath="$PROJECT_DIR$/lib/blog.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contact.erb" afterPath="$PROJECT_DIR$/views/contact.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.erb" afterPath="$PROJECT_DIR$/views/layout.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/post.erb" afterPath="$PROJECT_DIR$/views/post.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Problem 2.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1384982812205" ignored="false" />
     <file path="$PROJECT_DIR$/../Euler Project/Problem 2.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1384982820393" ignored="false" />
-    <file path="/blog.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385571425675" ignored="false" />
+    <file path="/blog.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385590370534" ignored="false" />
     <file path="/post.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385501763102" ignored="false" />
     <file path="/index.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385333639856" ignored="false" />
-    <file path="/layout.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385501971751" ignored="false" />
+    <file path="/layout.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385590128358" ignored="false" />
     <file path="/blog.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385072844562" ignored="false" />
-    <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385502605975" ignored="false" />
+    <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385590814574" ignored="false" />
     <file path="/github_hook.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385075085388" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385426037046" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385571756963" ignored="false" />
     <file path="/config.ru" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385151017277" ignored="false" />
     <file path="/blog1.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385082504742" ignored="false" />
     <file path="/blog1.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425656632" ignored="false" />
@@ -52,9 +47,9 @@
     <file path="/animals.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385407601875" ignored="false" />
     <file path="/blog2.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425704421" ignored="false" />
     <file path="/a.dummy" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385446229197" ignored="false" />
-    <file path="/about.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385494240781" ignored="false" />
+    <file path="/about.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385589602174" ignored="false" />
     <file path="/contact.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385494430469" ignored="false" />
-    <file path="/ask.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385571669624" ignored="false" />
+    <file path="/ask.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385579522423" ignored="false" />
     <file path="/create_db.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385498729573" ignored="false" />
     <file path="/Gemfile" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385504135925" ignored="false" />
     <file path="/greetme.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385523186152" ignored="false" />
@@ -123,7 +118,7 @@
       <file leaf-file-name="captcha.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/captcha.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="86" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+            <state line="9" column="3" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,16 +127,52 @@
       <file leaf-file-name="blog.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/blog.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="17" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+            <state line="54" column="14" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ask.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ask.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/ask.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="49" selection-start="671" selection-end="671" vertical-scroll-proportion="0.4934334">
+            <state line="26" column="23" selection-start="597" selection-end="597" vertical-scroll-proportion="-12.208333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/blog.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="15" selection-start="175" selection-end="175" vertical-scroll-proportion="0.16157989">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/contact.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="180" selection-end="180" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/about.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="36" selection-start="154" selection-end="154" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="26" selection-start="463" selection-end="463" vertical-scroll-proportion="-6.6666665">
               <folding />
             </state>
           </provider>
@@ -151,51 +182,6 @@
         <entry file="file://$PROJECT_DIR$/lib/create_db.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="3" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/blog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="16" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/contact.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="168" selection-end="168" vertical-scroll-proportion="-6.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/about.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="1002" selection-end="1002" vertical-scroll-proportion="-16.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/blog.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="7" selection-start="1393" selection-end="1393" vertical-scroll-proportion="-29.375">
               <folding />
             </state>
           </provider>
@@ -222,26 +208,25 @@
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/articles/blog1.md" />
         <option value="$PROJECT_DIR$/articles/blog2.md" />
-        <option value="$PROJECT_DIR$/views/about.erb" />
-        <option value="$PROJECT_DIR$/views/contact.erb" />
         <option value="$PROJECT_DIR$/lib/create_db.rb" />
         <option value="$PROJECT_DIR$/views/post.erb" />
         <option value="$PROJECT_DIR$/views/blog.erb" />
-        <option value="$PROJECT_DIR$/public/css/blog.css" />
-        <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/views/greetme.erb" />
         <option value="$PROJECT_DIR$/views/greet.erb" />
         <option value="$PROJECT_DIR$/lib/captcha.rb" />
-        <option value="$PROJECT_DIR$/lib/blog.rb" />
+        <option value="$PROJECT_DIR$/views/contact.erb" />
         <option value="$PROJECT_DIR$/views/ask.erb" />
+        <option value="$PROJECT_DIR$/views/about.erb" />
+        <option value="$PROJECT_DIR$/lib/blog.rb" />
+        <option value="$PROJECT_DIR$/views/layout.erb" />
+        <option value="$PROJECT_DIR$/public/css/blog.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
     <option name="y" value="22" />
-    <option name="width" value="1246" />
+    <option name="width" value="1280" />
     <option name="height" value="705" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -447,6 +432,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/lib/hook" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
@@ -623,7 +609,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="218" y="22" width="1246" height="705" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -632,7 +618,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1422731" sideWeight="0.6700855" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17422435" sideWeight="0.6700855" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -688,7 +674,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="looks prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Captcha almost works." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -707,6 +693,7 @@
     <MESSAGE value="first sinatra experience; content doesn't post." />
     <MESSAGE value="&quot;a mock-up with little functionality&quot;" />
     <MESSAGE value="looks prettier" />
+    <MESSAGE value="Captcha almost works." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -746,20 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="16" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/blog.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="7" selection-start="1393" selection-end="1393" vertical-scroll-proportion="-29.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
@@ -767,9 +740,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.erb">
+    <entry file="file://$PROJECT_DIR$/views/blog.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="1002" selection-end="1002" vertical-scroll-proportion="-16.25">
+        <state line="47" column="7" selection-start="1393" selection-end="1393" vertical-scroll-proportion="1.3557693">
           <folding />
         </state>
       </provider>
@@ -781,37 +754,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="135" selection-end="135" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contact.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="168" selection-end="168" vertical-scroll-proportion="-6.25">
+        <state line="11" column="11" selection-start="180" selection-end="180" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/captcha.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="86" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+        <state line="9" column="3" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
+    <entry file="file://$PROJECT_DIR$/views/about.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="17" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+        <state line="8" column="36" selection-start="154" selection-end="154" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/ask.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="49" selection-start="671" selection-end="671" vertical-scroll-proportion="0.4934334">
+        <state line="26" column="23" selection-start="597" selection-end="597" vertical-scroll-proportion="-12.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="14" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="463" selection-end="463" vertical-scroll-proportion="-6.6666665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="175" selection-end="175" vertical-scroll-proportion="0.16157989">
           <folding />
         </state>
       </provider>

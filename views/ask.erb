@@ -6,48 +6,35 @@
 </head>
 
 <body>
+    <!--Captcha -->
 
-<table>
-    <tr>
-        <th>Ask Me Anything:</th>
-        <td>
+    <h2><b>Ask Me Anything</b></h2>
 
-            <!--Captcha -->
-            <form method="post">
-            <img src="http://captchator.com/captcha/image/8283">
-            <label for="message">Enter the code:</label>
-            <input type="text" name="code">
+<form method="post">
+    <div class="captcha">
+    <img src="http://captchator.com/captcha/image/8283"><br>
+    </div>
+    <label for="message"><span>Prove you're a human:</span></label>
+    <input type="text" name="code">
 
-            <input type="submit" value="Submit" name="submit">
+    <!-- Question Field -->
+    <label for="question"><span>Enter your question:</span></label>
+    <input type="text" name="ask">
+    <input type="submit" value="Ask!">
+</form>
 
-            </form>
 
-
-            <!-- Question Field -->
-            <form method="post" action='/ask'>
-                <input type="text" name="ask">
-                <input type="submit" value="Ask!">
-            </form>
-
-            <% unless @questions.nil? %>
-                <% @questions.each do |question| %>
-                    <ul>
-                        <li><%= question[:ask] %></li>
-                    </ul>
-                <% end %>
-            <% end %>
-        </td>
-        <th>Answers:</th>
-        <td>
+<div class="questions">
+    <hr>
+<% unless @questions.nil? %>
+    <% @questions.each do |question| %>
         <ul>
-          <!-- stuff will go here -->
+            <li><%= question[:ask] %></li>
         </ul>
-        </td>
-    </tr>
-</table>
+    <% end %>
+<% end %>
+</div>
 
-
-<p><a href="/">Read My Blog</a></p>
 </body>
 
 </html>

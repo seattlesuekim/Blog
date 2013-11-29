@@ -51,6 +51,7 @@ div.headshot img {
 }
 
 div.findme {
+    vertical-align: middle;
     background-color: #ECBB70;
     opacity: 0.8;
 }
@@ -89,7 +90,43 @@ div.h1text {
     font-size: 50px;
 }
 
+form {
+    display: block;
+    float: left;
+}
+
+label {
+    display: block;
+    clear: left;
+    float: left;
+    width: 300px;
+    text-align: right;
+    margin-left: auto;
+}
+
+input {
+    display: block;
+    line-height: 20px;
+    float: left;
+}
+
 time {
     font-size: 80%;
     color: #555
+}
+
+div.captcha {
+    width: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div.questions {
+    display: block;
+    clear: left;
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
