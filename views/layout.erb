@@ -8,41 +8,46 @@
     <script type="text/javascript" src="/js/blog.js"></script>
 </head>
 
-
 <body>
 
-<h1><div class="h1text">Foo Bar</div></h1>
-
-<!-- Sidebar -->
-<div class="sidebar">
-    <div class="headshot">
-        <img src="/images/headshot.jpg">
-    </div>
-    <div class="findme"
-        <h3>Find me</h3>
-        <ul>
-            <li><a href="https://github.com/suewhite"><img src="http://busyflow.com/static/images/github-logo.png">GitHub</a></li>
-            <li><a href="https://twitter.com/SeattleRubySue"><img src="http://www.newunion.wisc.edu/images/twitter_icon.jpg">Twitter</a></li>
-            <li><a href="https://www.gittip.com/suewhite"><script data-gittip-username="suewhite"src="//gttp.co/v1.js"></script></a></li>
-        </ul>
-    </div>
+<div id="bg">
+    <img src="/images/wallpaper.jpg">
 </div>
 
-<!-- End Sidebar -->
+<!-- left side -->
+<div class="headshot">
+    <img src="/images/headshot.jpg">
+</div>
+
+
+<div class="findme"
+<h3>Find me</h3>
+<ul>
+    <li><a href="https://github.com/suewhite"><img src="http://busyflow.com/static/images/github-logo.png">GitHub</a>
+    </li>
+    <li><a href="https://twitter.com/SeattleRubySue"><img src="http://www.newunion.wisc.edu/images/twitter_icon.jpg">Twitter</a>
+    </li>
+    <li><a href="https://www.gittip.com/suewhite">
+        <script data-gittip-username="suewhite" src="//gttp.co/v1.js"></script>
+    </a></li>
+</ul>
+</div>
+
 
 <div class="container">
-<%= yield %>
+    <%= yield %>
 </div>
 
-<div class="rightnavbar">
+<div class="navbar">
     <ul>
-        <li><a href="/about"><img src="/images/about.png"></a></li>
-        <li><a href="/ask"><img src="/images/ask.png"></a></li>
-        <li><a href="/contact"><img src="/images/contact.png"></a></li>
-        <li><a href="/"><img src="/images/blog.png"></a></li>
+        <li><a href="/about"><img src="/images/about.jpg"></a></li>
+        <li><a href="/ask"><img src="/images/ask.jpg"></a></li>
+        <li><a href="/"><img src="/images/blog.jpg"></a></li>
     </ul>
 </div>
 
 </body>
+
+
 
 </html>

@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'sinatra/base'
 require 'sinatra/captcha'
-#require_relative 'github_hook'
 require 'ostruct'
 require 'time'
 require 'yaml'
@@ -11,9 +10,7 @@ require 'httparty'
 require_relative 'captcha'
 
 class Blog < Sinatra::Base
-#  use GithubHook
 
-  enable :sessions
 
   set :root, File.expand_path('../../', __FILE__)
   set :articles, []
