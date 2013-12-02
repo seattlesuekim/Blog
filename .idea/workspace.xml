@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.iml" afterPath="$PROJECT_DIR$/Blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/blog.css" afterPath="$PROJECT_DIR$/public/css/blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/blog.rb" afterPath="$PROJECT_DIR$/lib/blog.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.erb" afterPath="$PROJECT_DIR$/views/layout.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
@@ -19,7 +15,7 @@
     <file path="/blog.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385072844562" ignored="false" />
     <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385792508183" ignored="false" />
     <file path="/github_hook.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385075085388" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386020602361" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386020726703" ignored="false" />
     <file path="/config.ru" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385957568217" ignored="false" />
     <file path="/blog1.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385082504742" ignored="false" />
     <file path="/blog1.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425656632" ignored="false" />
@@ -60,13 +56,14 @@
     <file path="/hangman.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385957186172" ignored="false" />
     <file path="$PROJECT_DIR$/../hangman app/lib/fruits.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385956208842" ignored="false" />
     <file path="$PROJECT_DIR$/../hangman app/config.ru" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385957672052" ignored="false" />
-    <file path="$PROJECT_DIR$/../hangman app/views/main.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386019466160" ignored="false" />
-    <file path="/main.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386019248059" ignored="false" />
-    <file path="/hangman.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386020207025" ignored="false" />
-    <file path="$PROJECT_DIR$/../hangman app/public/css/hangman.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386020220440" ignored="false" />
-    <file path="$PROJECT_DIR$/../hangman app/.idea/workspace.xml" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386020613564" ignored="false" />
+    <file path="$PROJECT_DIR$/../hangman app/views/main.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386022473541" ignored="false" />
+    <file path="/main.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386022473170" ignored="false" />
+    <file path="/hangman.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386022912574" ignored="false" />
+    <file path="$PROJECT_DIR$/../hangman app/public/css/hangman.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386022995343" ignored="false" />
+    <file path="$PROJECT_DIR$/../hangman app/.idea/workspace.xml" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386023714293" ignored="false" />
     <file path="$PROJECT_DIR$/../hangman app/public/js/hangman.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386018659284" ignored="false" />
     <file path="$PROJECT_DIR$/../hangman app/public/images/ascii.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386019905366" ignored="false" />
+    <file path="$PROJECT_DIR$/../hangman app/Gemfile" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386023438255" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,10 +169,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="19" selection-start="330" selection-end="330" vertical-scroll-proportion="0.57581574">
+            <state line="20" column="19" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,7 +229,6 @@
         <option value="$PROJECT_DIR$/lib/create_db.rb" />
         <option value="$PROJECT_DIR$/views/post.erb" />
         <option value="$PROJECT_DIR$/views/blog.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/views/greetme.erb" />
         <option value="$PROJECT_DIR$/views/greet.erb" />
         <option value="$PROJECT_DIR$/lib/captcha.rb" />
@@ -233,6 +238,7 @@
         <option value="$PROJECT_DIR$/public/css/blog.css" />
         <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/lib/blog.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -640,9 +646,10 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="300" y="22" width="752" height="705" extended-state="0" />
+    <frame x="300" y="22" width="752" height="705" extended-state="1" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -657,7 +664,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -705,7 +711,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stuff works; design is ugly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Now with more captcha" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -726,6 +732,7 @@
     <MESSAGE value="looks prettier" />
     <MESSAGE value="Captcha almost works." />
     <MESSAGE value="Stuff works; design is ugly." />
+    <MESSAGE value="Now with more captcha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -744,13 +751,6 @@
         <state line="9" column="12" selection-start="333" selection-end="333" vertical-scroll-proportion="0.2532833" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/blog.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="7" selection-start="1393" selection-end="1393" vertical-scroll-proportion="1.3557693" />
@@ -763,7 +763,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
@@ -827,7 +829,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="330" selection-end="330" vertical-scroll-proportion="0.57581574">
+        <state line="20" column="19" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

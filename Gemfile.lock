@@ -1,0 +1,9 @@
+GEM
+  specs:
+    sinatra-captcha (0.1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra-captcha (~> 0.1.0.0)
