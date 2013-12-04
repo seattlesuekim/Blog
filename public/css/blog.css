@@ -61,6 +61,10 @@ div.headshot img {
     height: 250px;
 }
 
+img:hover {
+    opacity: 0.8;
+}
+
 div.findme {
     display: inline-block;
     float: right;
@@ -86,6 +90,14 @@ div.navbar {
 
 div.navbar ul {
     list-style-type: none;
+}
+
+a {
+    color: #fdc3ff;
+}
+
+a:hover {
+    color: #ff6ff9;
 }
 
 /*CSS for Ask page*/
