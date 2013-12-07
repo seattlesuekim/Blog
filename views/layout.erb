@@ -10,27 +10,26 @@
 
 <body>
 
-<div id="bg">
-    <img src="/images/wallpaper.jpg">
-</div>
-
+<div class="bg"></div>
 <!-- left side -->
 <div class="headshot">
     <img src="/images/headshot.jpg">
 </div>
 
+<div class="navbar">
+    <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/ask">Ask</a></li>
+        <li><a href="/">Blog</a></li>
+    </ul>
+</div>
 
-<div class="findme"
-<h3>Find me</h3>
-<ul>
-    <li><a href="https://github.com/suewhite"><img src="http://busyflow.com/static/images/github-logo.png">GitHub</a>
-    </li>
-    <li><a href="https://twitter.com/SeattleRubySue"><img src="http://www.newunion.wisc.edu/images/twitter_icon.jpg">Twitter</a>
-    </li>
-    <li><a href="https://www.gittip.com/suewhite">
-        <script data-gittip-username="suewhite" src="//gttp.co/v1.js"></script>
-    </a></li>
-</ul>
+<div class="findme">
+<div class="buttons">
+<a href="https://github.com/suewhite"><img src="/images/github.png"></a>
+<a href="https://twitter.com/SeattleRubySue"><img src="/images/twitter.png"></a>
+<a href="https://twitter.com/SeattleRubySue"><img src="/images/linkedin.png"></a>
+</div>
 </div>
 
 
@@ -38,13 +37,9 @@
     <%= yield %>
 </div>
 
-<div class="navbar">
-    <ul>
-        <li><a href="/about"><img src="/images/about.jpg"></a></li>
-        <li><a href="/ask"><img src="/images/ask.jpg"></a></li>
-        <li><a href="/"><img src="/images/blog.jpg"></a></li>
-    </ul>
-</div>
+<!--<a href="https://www.gittip.com/suewhite">-->
+<!--<script data-gittip-username="suewhite" src="//gttp.co/v1.js"></script>-->
+<!--</a>-->
 
 </body>
 
