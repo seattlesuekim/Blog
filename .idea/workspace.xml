@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="merged">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog2" afterPath="$PROJECT_DIR$/Blog2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/blog.rb" afterPath="$PROJECT_DIR$/lib/blog.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/create_db.rb" afterPath="$PROJECT_DIR$/lib/create_db.rb" />
     </list>
     <ignored path="sinatra practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +45,7 @@
     <file path="/about.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386611411521" ignored="false" />
     <file path="/contact.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385494430469" ignored="false" />
     <file path="/ask.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385579522423" ignored="false" />
-    <file path="/create_db.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385498729573" ignored="false" />
+    <file path="/create_db.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386623276742" ignored="false" />
     <file path="/Gemfile" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386621352768" ignored="false" />
     <file path="/greetme.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385523186152" ignored="false" />
     <file path="/greet.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385523752781" ignored="false" />
@@ -73,6 +72,7 @@
     <file path="/blog4.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386530319704" ignored="false" />
     <file path="/blog5.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386530433661" ignored="false" />
     <file path="/blog6.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386618915193" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386623235048" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,7 @@
       <file leaf-file-name="blog.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/blog.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="484" selection-end="484" vertical-scroll-proportion="0.4578097">
+            <state line="75" column="42" selection-start="1616" selection-end="1616" vertical-scroll-proportion="2.0197487">
               <folding />
             </state>
           </provider>
@@ -145,7 +145,7 @@
       <file leaf-file-name="create_db.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/create_db.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="6" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -241,7 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/greet.erb" />
         <option value="$PROJECT_DIR$/lib/captcha.rb" />
         <option value="$PROJECT_DIR$/Blog/views/about.erb" />
         <option value="$PROJECT_DIR$/views/ask.erb" />
@@ -257,6 +256,7 @@
         <option value="$PROJECT_DIR$/articles/blog6.md" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/blog.rb" />
+        <option value="$PROJECT_DIR$/lib/create_db.rb" />
       </list>
     </option>
   </component>
@@ -820,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/create_db.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog5.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
@@ -864,9 +857,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/create_db.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/blog.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="484" selection-end="484" vertical-scroll-proportion="0.4578097">
+        <state line="75" column="42" selection-start="1616" selection-end="1616" vertical-scroll-proportion="2.0197487">
           <folding />
         </state>
       </provider>

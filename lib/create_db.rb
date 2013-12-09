@@ -6,3 +6,7 @@ db.create_table(:questions) do
   primary_key :id
   string :ask
 end
+
+
+
+#db = Sequel.connect(ENV['DATABASE_URL'])
