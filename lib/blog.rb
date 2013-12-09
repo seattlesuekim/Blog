@@ -10,6 +10,23 @@ require_relative 'captcha'
 
 class Blog < Sinatra::Base
 
+  configure :development do
+    before do
+      @db = Sequel.connect('sqLite://questions.db')
+      @questions = @db[:questions]
+    end
+  end
+
+  configure :production do
+    before do
+      @db = Sequel.connect(ENV['DATABASE_URL'])
+      @questions = @db[:questions]
+    end
+  end
+
+
+  set :database, "sqlite3:///questions.db"
+
 
   set :root, File.expand_path('../../', __FILE__)
   set :articles, []
@@ -37,10 +54,7 @@ class Blog < Sinatra::Base
   articles.sort_by! { |article| article.date}
   articles.reverse!
 
-  before do
-    @db = Sequel.connect('sqLite://questions.db')
-    @questions = @db[:questions]
-  end
+
 
   get '/' do
     erb :index

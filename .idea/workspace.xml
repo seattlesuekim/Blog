@@ -3,23 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="merged">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog2" afterPath="$PROJECT_DIR$/Blog2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.iml" afterPath="$PROJECT_DIR$/Blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/blog.rb" afterPath="$PROJECT_DIR$/lib/blog.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Problem 2.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1384982812205" ignored="false" />
     <file path="$PROJECT_DIR$/../Euler Project/Problem 2.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1384982820393" ignored="false" />
-    <file path="/blog.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386455175762" ignored="false" />
+    <file path="/blog.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386622640356" ignored="false" />
     <file path="/post.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385501763102" ignored="false" />
     <file path="/index.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385333639856" ignored="false" />
     <file path="/layout.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386617154860" ignored="false" />
     <file path="/blog.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385072844562" ignored="false" />
     <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386475438952" ignored="false" />
     <file path="/github_hook.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385075085388" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386614436664" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386622234288" ignored="false" />
     <file path="/config.ru" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385957568217" ignored="false" />
     <file path="/blog1.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385082504742" ignored="false" />
     <file path="/blog1.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425656632" ignored="false" />
@@ -135,10 +133,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="blog.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/blog.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+            <state line="23" column="7" selection-start="484" selection-end="484" vertical-scroll-proportion="0.4578097">
               <folding />
             </state>
           </provider>
@@ -156,7 +154,7 @@
       <file leaf-file-name="about.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/about.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-15.0">
+            <state line="24" column="8" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,7 +163,7 @@
       <file leaf-file-name="layout.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="37" selection-start="614" selection-end="614" vertical-scroll-proportion="-2.8333333">
+            <state line="22" column="37" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,16 +172,16 @@
       <file leaf-file-name="russian.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/russian.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="623" selection-end="623" vertical-scroll-proportion="-8.125">
+            <state line="13" column="28" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.4847397">
+            <state line="18" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,7 +190,7 @@
       <file leaf-file-name="blog4.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/blog4.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.5555556">
+            <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,7 +202,7 @@
       <file leaf-file-name="blog5.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/blog5.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.5555556">
+            <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,7 +214,7 @@
       <file leaf-file-name="blog6.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/blog6.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.3333333">
+            <state line="6" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -257,14 +255,14 @@
         <option value="$PROJECT_DIR$/views/russian.erb" />
         <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/articles/blog6.md" />
-        <option value="$PROJECT_DIR$/lib/blog.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/blog.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-3" />
-    <option name="y" value="27" />
+    <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="705" />
   </component>
@@ -348,6 +346,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -442,7 +441,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,8 +458,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.27731094" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.27731094" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -651,14 +649,12 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="-3" y="27" width="1280" height="705" extended-state="6" />
+    <frame x="-3" y="22" width="1280" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12490056" sideWeight="0.6700855" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -669,6 +665,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -763,9 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -773,9 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog2.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="70" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.39291218">
-          <folding />
-        </state>
+        <state line="17" column="70" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.39291218" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -793,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/about.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-15.0">
+        <state line="24" column="8" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -807,14 +801,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/russian.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="623" selection-end="623" vertical-scroll-proportion="-8.125">
+        <state line="13" column="28" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="614" selection-end="614" vertical-scroll-proportion="-2.8333333">
+        <state line="22" column="37" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -835,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog5.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.5555556">
+        <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -845,7 +839,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog4.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.5555556">
+        <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -855,7 +849,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog6.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.3333333">
+        <state line="6" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -863,16 +857,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.4847397">
+        <state line="23" column="7" selection-start="484" selection-end="484" vertical-scroll-proportion="0.4578097">
           <folding />
         </state>
       </provider>
