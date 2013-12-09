@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles/blog3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles/blog4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles/blog5.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles/blog6.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/russian.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/russian_layout.erb" />
+    <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="merged">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog2" afterPath="$PROJECT_DIR$/Blog2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about.erb" afterPath="$PROJECT_DIR$/views/about.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/ask.erb" afterPath="$PROJECT_DIR$/views/ask.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/blog.css" afterPath="$PROJECT_DIR$/public/css/blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/blog.rb" afterPath="$PROJECT_DIR$/lib/blog.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contact.erb" afterPath="$PROJECT_DIR$/views/contact.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/russian.erb" afterPath="$PROJECT_DIR$/views/russian.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
@@ -26,7 +18,7 @@
     <file path="/blog.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385072844562" ignored="false" />
     <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386475438952" ignored="false" />
     <file path="/github_hook.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385075085388" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386609454971" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386611451084" ignored="false" />
     <file path="/config.ru" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385957568217" ignored="false" />
     <file path="/blog1.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385082504742" ignored="false" />
     <file path="/blog1.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425656632" ignored="false" />
@@ -52,7 +44,7 @@
     <file path="/animals.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385407601875" ignored="false" />
     <file path="/blog2.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425704421" ignored="false" />
     <file path="/a.dummy" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386451124558" ignored="false" />
-    <file path="/about.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386477344438" ignored="false" />
+    <file path="/about.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386611411521" ignored="false" />
     <file path="/contact.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385494430469" ignored="false" />
     <file path="/ask.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385579522423" ignored="false" />
     <file path="/create_db.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385498729573" ignored="false" />
@@ -141,10 +133,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="blog.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/blog.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="44" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.0">
+            <state line="41" column="49" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.4847397">
               <folding />
             </state>
           </provider>
@@ -171,16 +163,16 @@
       <file leaf-file-name="about.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/about.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="998" selection-end="998" vertical-scroll-proportion="-13.75">
+            <state line="24" column="8" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="russian.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="russian.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/russian.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.2532833">
+            <state line="18" column="9" selection-start="769" selection-end="769" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -262,18 +254,18 @@
         <option value="$PROJECT_DIR$/lib/blog.rb" />
         <option value="$PROJECT_DIR$/views/russian_layout.erb" />
         <option value="$PROJECT_DIR$/public/css/blog.css" />
-        <option value="$PROJECT_DIR$/views/about.erb" />
         <option value="$PROJECT_DIR$/articles/blog3.md" />
         <option value="$PROJECT_DIR$/articles/blog4.md" />
         <option value="$PROJECT_DIR$/articles/blog5.md" />
         <option value="$PROJECT_DIR$/articles/blog6.md" />
+        <option value="$PROJECT_DIR$/views/about.erb" />
         <option value="$PROJECT_DIR$/views/russian.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1378" />
+    <option name="width" value="1280" />
     <option name="height" value="705" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -659,21 +651,21 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1378" height="705" extended-state="1" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1280" height="705" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11586716" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12490056" sideWeight="0.6700855" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48376068" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -724,7 +716,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -748,6 +740,8 @@
     <MESSAGE value="Now with more captcha" />
     <MESSAGE value="images work on my computer" />
     <MESSAGE value="updated layout" />
+    <MESSAGE value="heroku commit" />
+    <MESSAGE value="merged" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -791,13 +785,6 @@
     <entry file="file://$PROJECT_DIR$/views/ask.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="35" selection-start="277" selection-end="277" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="44" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -869,16 +856,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.erb">
+    <entry file="file://$PROJECT_DIR$/views/russian.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="998" selection-end="998" vertical-scroll-proportion="-13.75">
+        <state line="18" column="9" selection-start="769" selection-end="769" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/russian.erb">
+    <entry file="file://$PROJECT_DIR$/views/about.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.2532833">
+        <state line="24" column="8" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="49" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.4847397">
           <folding />
         </state>
       </provider>
