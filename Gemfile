@@ -5,13 +5,14 @@ gem 'sinatra'
 gem 'redcarpet'
 gem 'httparty'
 gem 'sinatra-captcha', '~> 0.1.0.0'
+gem 'sequel'
 
 group :production do
   gem 'pg'
 end
 
 group :development do
-  gem 'sequel'
+  gem 'sqlite3'
 end
 
 
