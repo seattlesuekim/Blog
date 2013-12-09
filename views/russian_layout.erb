@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Блог Сью</title>
+    <link rel="stylesheet" media="screen" href="/css/blog.css"/>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.timeago.js"></script>
+    <script type="text/javascript" src="/js/blog.js"></script>
+</head>
+
+<body>
+
+<div class="bg"></div>
+<!-- left side -->
+<div class="headshot">
+    <img src="/images/headshot.jpg">
+</div>
+
+<div class="rus-navbar">
+    <ul>
+        <li><a href="/about">Обо мне</a></li>
+        <li><a href="/ask">Спросить</a></li>
+        <li><a href="/">Блог</a></li>
+    </ul>
+</div>
+
+<div class="findme">
+    <div class="buttons">
+        <a href="https://github.com/suewhite"><img src="/images/github.png"></a>
+        <a href="https://twitter.com/SeattleRubySue"><img src="/images/twitter.png"></a>
+        <a href="https://twitter.com/SeattleRubySue"><img src="/images/linkedin.png"></a>
+    </div>
+</div>
+
+
+<div class="container">
+    <%= yield %>
+</div>
+
+<!--<a href="https://www.gittip.com/suewhite">-->
+<!--<script data-gittip-username="suewhite" src="//gttp.co/v1.js"></script>-->
+<!--</a>-->
+
+</body>
+
+
+
+</html>

@@ -65,6 +65,10 @@ class Blog < Sinatra::Base
     redirect back
   end
 
+  get '/russian' do
+    erb :russian, :layout => :russian_layout
+  end
+
   get '/contact' do
     erb :contact
   end
