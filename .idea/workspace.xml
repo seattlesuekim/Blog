@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="merged">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog2" afterPath="$PROJECT_DIR$/Blog2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.iml" afterPath="$PROJECT_DIR$/Blog.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/russian.erb" afterPath="$PROJECT_DIR$/views/russian.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +17,7 @@
     <file path="/blog.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385072844562" ignored="false" />
     <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386475438952" ignored="false" />
     <file path="/github_hook.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385075085388" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386625574767" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1388112689840" ignored="false" />
     <file path="/config.ru" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385957568217" ignored="false" />
     <file path="/blog1.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385082504742" ignored="false" />
     <file path="/blog1.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425656632" ignored="false" />
@@ -181,7 +181,7 @@
       <file leaf-file-name="russian.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/russian.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="420" selection-end="420" vertical-scroll-proportion="0.19699812">
+            <state line="7" column="28" selection-start="413" selection-end="413" vertical-scroll-proportion="0.19699812">
               <folding />
             </state>
           </provider>
@@ -249,7 +249,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="705" />
@@ -333,8 +332,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -446,8 +445,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.27731094" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.27731094" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -637,7 +636,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="-3" y="22" width="1280" height="705" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -815,16 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/blog6.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog5.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -842,9 +831,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/articles/blog6.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/russian.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="420" selection-end="420" vertical-scroll-proportion="0.19699812">
+        <state line="7" column="28" selection-start="413" selection-end="413" vertical-scroll-proportion="0.19699812">
           <folding />
         </state>
       </provider>
