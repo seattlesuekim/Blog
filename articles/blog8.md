@@ -1,0 +1,31 @@
+date: 2014-01-03
+title: Table Label and Other Stuff
+
+<p>Last week I was part of a 4-person team which developed an online store app. My contribution was user authentication. Users needed to enter the correct password, that is, the password which when hashed using bcrypt matched the hashed password that was entered. Another part of user authentication involved placing a cookie in the user's browser. The 'remember token' allowed the application to know which user is visiting any page at any given time. Nifty!
+</p>
+<p>
+Over the holiday, I wrote an application called "Table Label." Users fill out a 64-item questionnaire which details all of their dietary preferences/restrictions. The user then gets back their own unique 16-character Table Label. The host of a party can then enter any number of Tabel Labels and get back up to 4 lists: an A-list, B-list, C-list, and F-list. These are simply set intersections based on the percentages of yesses. The host then has a better idea of what to/ what not to serve. No more meat on a stick for this vegan.
+</p>
+<p>
+Each question has three radio buttons -- "yes", "no", and "prefer no." If I had kept the encoding in base-3, the Table Label would have been 64 characters long. Unacceptable. In my utopia, everyone would include their Table Label in their email signatures, etc. So I converted it to base-84. Since 3^4 is 81, each set of 4 characters (questions) are encoded into one base-81 character -- 81/4 = 16, thus the 16 character length. Luckily, there are at least 81 printable ASCII characters.
+</p>
+<p>
+Here's a cool recursive algorithm:
+</p>
+An elegant way to retrieve all data from an arbitrarily nested hash in Ruby
+This will recurse through the given hash and return an array containing everything in the whole data structure.
+<code>
+def get_hash_data(s)
+  array = []
+  if s.is_a?(Hash)
+   s.each { |k, v| array += get_hash_data(k)
+                   array += get_hash_data(v) }
+  elsif s.is_a?(Array)
+    s.each { |i| array += get_hash_data(i) }
+  # Base case
+  else
+    array << s.to_s
+  end
+  array
+end
+</code>
