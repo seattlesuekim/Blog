@@ -14,7 +14,7 @@ Here's a cool recursive algorithm:
 </p>
 An elegant way to retrieve all data from an arbitrarily nested hash in Ruby
 This will recurse through the given hash and return an array containing everything in the whole data structure.
-<code>
+<pre><code>
 def get_hash_data(s)
   array = []
   if s.is_a?(Hash)
@@ -28,4 +28,4 @@ def get_hash_data(s)
   end
   array
 end
-</code>
+</code></pre>

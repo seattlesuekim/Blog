@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="merged">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/articles/blog5.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog2" afterPath="$PROJECT_DIR$/Blog2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/blog8.md" afterPath="$PROJECT_DIR$/articles/blog8.md" />
     </list>
     <ignored path="sinatra practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +72,7 @@
     <file path="/blog4.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386623505395" ignored="false" />
     <file path="/blog5.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389069864031" ignored="false" />
     <file path="/blog6.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389069758268" ignored="false" />
-    <file path="/blog8.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389069704642" ignored="false" />
+    <file path="/blog8.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389070312567" ignored="false" />
     <file path="/blog7.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389069607166" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,10 +164,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog8.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles/blog8.md">
+      <file leaf-file-name="blog4.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articles/blog4.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="7" selection-start="2075" selection-end="2075" vertical-scroll-proportion="-16.666666">
+            <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.5555556">
               <folding />
             </state>
           </provider>
@@ -176,10 +176,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog4.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/articles/blog4.md">
+      <file leaf-file-name="blog8.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/articles/blog8.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="0.029013539">
+            <state line="30" column="13" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.82591873">
               <folding />
             </state>
           </provider>
@@ -267,9 +267,9 @@
         <option value="$PROJECT_DIR$/articles/blog4.md" />
         <option value="$PROJECT_DIR$/views/russian.erb" />
         <option value="$PROJECT_DIR$/articles/blog7.md" />
-        <option value="$PROJECT_DIR$/articles/blog8.md" />
         <option value="$PROJECT_DIR$/articles/blog6.md" />
         <option value="$PROJECT_DIR$/articles/blog5.md" />
+        <option value="$PROJECT_DIR$/articles/blog8.md" />
       </list>
     </option>
   </component>
@@ -662,7 +662,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -807,16 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/blog8.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="7" selection-start="2075" selection-end="2075" vertical-scroll-proportion="-16.666666">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog7.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0">
@@ -869,7 +859,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog4.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="0.029013539">
+        <state line="1" column="28" selection-start="45" selection-end="45" vertical-scroll-proportion="-0.5555556">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/blog8.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.82591873">
           <folding />
         </state>
       </provider>
