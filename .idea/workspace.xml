@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="merged">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/blog9.html" afterPath="$PROJECT_DIR$/articles/blog9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/blog.rb" afterPath="$PROJECT_DIR$/lib/blog.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/blog8.html" afterPath="$PROJECT_DIR$/articles/blog8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Problem 2.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1384982812205" ignored="false" />
     <file path="$PROJECT_DIR$/../Euler Project/Problem 2.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1384982820393" ignored="false" />
-    <file path="/blog.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389655094341" ignored="false" />
+    <file path="/blog.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389741410623" ignored="false" />
     <file path="/post.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385501763102" ignored="false" />
     <file path="/index.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385333639856" ignored="false" />
     <file path="/layout.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386617154860" ignored="false" />
@@ -45,7 +49,7 @@
     <file path="/contact.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385494430469" ignored="false" />
     <file path="/ask.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385579522423" ignored="false" />
     <file path="/create_db.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386623276742" ignored="false" />
-    <file path="/Gemfile" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386621352768" ignored="false" />
+    <file path="/Gemfile" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389741925034" ignored="false" />
     <file path="/greetme.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385523186152" ignored="false" />
     <file path="/greet.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385523752781" ignored="false" />
     <file path="/captcha.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385571225326" ignored="false" />
@@ -89,7 +93,7 @@
     <file path="/blog10.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389733851312" ignored="false" />
     <file path="$PROJECT_DIR$/../table_label/app/views/label/retrieve.html.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389726113353" ignored="false" />
     <file path="/retrieve.html.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389726113353" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389734816959" ignored="false" />
+    <file path="/environment.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389742266099" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +157,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,16 +166,16 @@
       <file leaf-file-name="blog.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/blog.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="35" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+            <state line="24" column="5" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog9.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blog9.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/blog9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="99" selection-start="837" selection-end="837" vertical-scroll-proportion="0.23076923">
+            <state line="15" column="99" selection-start="837" selection-end="837" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -186,10 +190,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog8.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="blog8.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/articles/blog8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="9" column="290" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.2596154">
               <folding />
             </state>
           </provider>
@@ -213,10 +217,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/articles/blog3.md" />
         <option value="$PROJECT_DIR$/views/about.erb" />
         <option value="$PROJECT_DIR$/views/layout.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/create_db.rb" />
         <option value="$PROJECT_DIR$/articles/blog4.md" />
         <option value="$PROJECT_DIR$/views/russian.erb" />
@@ -224,11 +226,13 @@
         <option value="$PROJECT_DIR$/articles/blog6.md" />
         <option value="$PROJECT_DIR$/articles/blog5.md" />
         <option value="$PROJECT_DIR$/articles/blog8.md" />
-        <option value="$PROJECT_DIR$/lib/blog.rb" />
-        <option value="$PROJECT_DIR$/articles/blog8.html" />
         <option value="$PROJECT_DIR$/articles/blog10.html" />
         <option value="$PROJECT_DIR$/articles/blog11.html" />
         <option value="$PROJECT_DIR$/articles/blog9.html" />
+        <option value="$PROJECT_DIR$/lib/blog.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/environment.rb" />
+        <option value="$PROJECT_DIR$/articles/blog8.html" />
       </list>
     </option>
   </component>
@@ -338,38 +342,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sinatra practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -612,9 +584,10 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="7" />
+    <frame x="0" y="22" width="1280" height="705" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -629,7 +602,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -780,36 +752,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog1.html">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="24" selection-start="702" selection-end="702" vertical-scroll-proportion="0.28846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="35" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles/blog8.html">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
@@ -821,9 +769,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/blog.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="99" selection-start="837" selection-end="837" vertical-scroll-proportion="0.23076923">
+        <state line="15" column="99" selection-start="837" selection-end="837" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/blog8.html">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="290" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.2596154">
           <folding />
         </state>
       </provider>

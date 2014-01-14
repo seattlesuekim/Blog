@@ -24,9 +24,7 @@ class Blog < Sinatra::Base
     end
   end
 
-
   set :database, "sqlite3:///questions.db"
-
 
   set :root, File.expand_path('../../', __FILE__)
   set :articles, []
@@ -53,8 +51,6 @@ class Blog < Sinatra::Base
   # Sort articles by date, display new articles first
   articles.sort_by! { |article| article.date}
   articles.reverse!
-
-
 
   get '/' do
     erb :index
