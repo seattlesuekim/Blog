@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="merged">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/blog.rb" afterPath="$PROJECT_DIR$/lib/blog.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/blog8.html" afterPath="$PROJECT_DIR$/articles/blog8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +73,7 @@
     <file path="/blog6.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389069758268" ignored="false" />
     <file path="/blog8.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389650282610" ignored="false" />
     <file path="/blog7.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389069607166" ignored="false" />
-    <file path="/blog8.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389655275069" ignored="false" />
+    <file path="/blog8.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389743196556" ignored="false" />
     <file path="$PROJECT_DIR$/../table_label/app/assets/stylesheets/application.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389657481557" ignored="false" />
     <file path="$PROJECT_DIR$/../table_label/config/routes.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389657485287" ignored="false" />
     <file path="$PROJECT_DIR$/../table_label/config/database.yml" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389657482556" ignored="false" />
@@ -94,6 +90,7 @@
     <file path="$PROJECT_DIR$/../table_label/app/views/label/retrieve.html.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389726113353" ignored="false" />
     <file path="/retrieve.html.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389726113353" ignored="false" />
     <file path="/environment.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389742266099" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389743197792" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,7 @@
       <file leaf-file-name="blog8.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/articles/blog8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="290" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.2596154">
+            <state line="14" column="10" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.40384614">
               <folding />
             </state>
           </provider>
@@ -795,7 +792,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="290" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.2596154">
+        <state line="14" column="10" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.40384614">
           <folding />
         </state>
       </provider>
