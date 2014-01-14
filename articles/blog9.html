@@ -1,0 +1,40 @@
+date: 2014-01-03
+title: Deploy Your App to Heroku Without a Database
+
+<p>I wrote an app called <a href="http://table-label.herokuapp.com">Table Label</a>. Its current functionality uses no database.
+The first time I deployed Table Label to Heroku, I created a dummy Postgres database just to please Heroku (this wasn't my idea).
+That was lame, so I got rid of my database out of principle.
+</p>
+<p>
+Here are the steps to get rid of any traces of databse in your Rails application.
+    <ul>
+    <li>
+        First, check your Gemfile. Make sure there are no sqlite3 or pg gems outside of your test environment. <code>gem 'sqlite3'</code> comes automatically in your Gemfile when you run <code>rails new</code>.
+    </li>
+    <br>
+    <li>
+        Go ahead and delete database.yml. You don't need it.
+    </li>
+    <br>
+    <li>
+        Now, your app will not work when you run your localhost (Rails will look for database.yml). Your app will also not deploy to Heroku. You are in limbo.
+        This is because Rails is requiring ActiveRecord. Simple fix -- go to /config/application.rb and delete or comment out the line <code>require "active_record/railite"</code>.
+    </li>
+    <br>
+    <li>
+        In /config/environments/development.rb, remove <code>config.active_record.migration_error = :page_load</code>.
+    </li>
+    <br>
+    <li>
+        In /config/initializers/wrap_parameters.rb, remove the block beginning with <code>ActiveSupport.on_load(:active_record) do</code>
+    </li>
+    <br>
+    <li>
+        Running your localhost shouldn't produce any database-related errors at this point. Go to <a href="http://heroku.com">Heroku</a>, view the "Resources" section of your app, and make sure you don't have any database stuff in your "Add-ons."
+    </li>
+    <br>
+    <li><code>git push heroku master</code>  .......  WIN
+    </li>
+    </ul>
+</p>
+

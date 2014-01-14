@@ -33,13 +33,13 @@ class Blog < Sinatra::Base
   set :app_file, __FILE__
 
   # loop through all the article files
-  Dir.glob "#{root}/articles/*.md" do |file|
+  Dir.glob "#{root}/articles/*.html" do |file|
     # parse meta data and content from file
     meta, content   = File.read(file).split("\n\n", 2)
     article         = OpenStruct.new YAML.load(meta)
     article.date    = Time.parse article.date.to_s
     article.content = content
-    article.slug    = File.basename(file, '.md')
+    article.slug    = File.basename(file, '.html')
 
     # set up the route
     get "/#{article.slug}" do
