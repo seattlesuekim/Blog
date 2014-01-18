@@ -8,11 +8,8 @@ gem 'sinatra-captcha', '~> 0.1.0.0'
 gem 'sequel'
 gem 'activerecord'
 gem 'sinatra-activerecord'
-
-
-group :production do
-  gem 'pg'
-end
+gem 'pg'
+gem 'sinatra-contrib'
 
 group :development do
   gem 'sqlite3'
