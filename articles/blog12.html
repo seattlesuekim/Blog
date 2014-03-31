@@ -1,0 +1,36 @@
+date: 2014-01-24
+title: SQL Injections are Bad, MMkay
+
+<p>We all should know better than to commit our session store and our secret_token from our Rails config/initializers directory to Github.
+    But we don't. Valid cookies are easy to bake. Throw some chocolate chips, flour, sugar and earth balance together and BAM.
+</p>
+<p>All you need to do to make a valid cookie is the following procedure described by
+    <a href="http://robertheaton.com/2013/07/22/how-to-hack-a-rails-app-using-its-secret-token/">Rob Heaton</a>:*
+    <ul>
+    <li>Look at the cookie in your browser. Note its structure -- it's a hex string with a hyphen in the middle.</li>
+    <li>Create your evil hash and Marshal.dump it</li>
+    <li>Encode in base 64, then escape characters</li>
+    <li>Calculate your signature using OpenSSL::HMAC.hexdigest</li>
+    <li>Concatenate the signature to the value</li>
+    </ul>
+
+
+<p>Well, that was easy. I did this and it works. A slightly less obvious mistake we make with Rails applications is that we allow
+    <a href="http://en.wikipedia.org/wiki/SQL_injection">SQL injections</a>.
+    Go ahead and run <a href="http://brakemanscanner.org">Brakeman</a>. You might see this vulnerability in your application.
+    You already use strong params to prevent malicious Mallory from sending malicious (like delete) HTTP requests.
+    But that won't stop Mallory from trying to send DELETE * FROM Tablename; INSERT ...
+    Mallory can send <em>any number</em> of SQL queries by simply adding a semicolon and concatenating more stuff, because
+    ActiveRecord's implementation of the SQL server allows for multiple queries to be processed in one call.
+    As always, you can stop Mallory.
+<ul>
+    <li>First of all, don't use string interpolation to make SQL or ActiveRecord queries.</li>
+    <li>Use <a href="http://en.wikipedia.org/wiki/Prepared_statement">prepared statements</a>.</li>
+    <li>Finally, properly escape your characters. An example of code which doesn't filter Mallory's input for escape characters is
+    <code>statement = "SELECT * FROM users WHERE name ='" + userName + "';"</code>. Avoid that.</li>
+</ul>
+</p>
+
+<p><img src="http://imgs.xkcd.com/comics/exploits_of_a_mom.png" width="600"></p>
+
+<p><small>Disclaimer: don't do anything illegal.</small></p>
