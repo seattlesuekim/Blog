@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" name="Default" comment="merged">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/articles/blog15.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/blog14.html" afterPath="$PROJECT_DIR$/articles/blog14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/blog15.html" afterPath="$PROJECT_DIR$/articles/blog15.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra practice.iws" />
@@ -17,7 +16,7 @@
     <file path="/blog.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1389826607982" ignored="false" />
     <file path="/blog.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1390031595370" ignored="false" />
     <file path="/github_hook.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385075085388" ignored="false" />
-    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395199360949" ignored="false" />
+    <file path="/Dummy.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1396292623548" ignored="false" />
     <file path="/config.ru" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385957568217" ignored="false" />
     <file path="/blog1.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385082504742" ignored="false" />
     <file path="/blog1.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425656632" ignored="false" />
@@ -42,7 +41,7 @@
     <file path="$PROJECT_DIR$/../sinatra_practice/views/animals.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385407601875" ignored="false" />
     <file path="/animals.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385407601875" ignored="false" />
     <file path="/blog2.md" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385425704421" ignored="false" />
-    <file path="/a.dummy" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205769256" ignored="false" />
+    <file path="/a.dummy" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395368814033" ignored="false" />
     <file path="/about.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1386611411521" ignored="false" />
     <file path="/contact.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385494430469" ignored="false" />
     <file path="/ask.erb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1385579522423" ignored="false" />
@@ -114,31 +113,62 @@
     <file path="/blog11.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1390411977894" ignored="false" />
     <file path="/blog13.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395189488123" ignored="false" />
     <file path="/blog12.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395189617514" ignored="false" />
-    <file path="/blog15.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395190018137" ignored="false" />
+    <file path="/blog15.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1396294469256" ignored="false" />
     <file path="/blog14.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395274060260" ignored="false" />
     <file path="$PROJECT_DIR$/../storeServer/app/controllers/application_controller.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395202307402" ignored="false" />
     <file path="$PROJECT_DIR$/../digistore/app/templates/productEdit.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395203890560" ignored="false" />
     <file path="$PROJECT_DIR$/../digistore/app/templates/productNew.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395256677380" ignored="false" />
     <file path="$PROJECT_DIR$/../digistore/app/scripts/routes/productEdit.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395204002749" ignored="false" />
-    <file path="$PROJECT_DIR$/../digistore/app/scripts/routes/productNew.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395203977863" ignored="false" />
-    <file path="$PROJECT_DIR$/../digistore/app/index.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205408389" ignored="false" />
-    <file path="/index.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205404925" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/routes/productNew.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395368870766" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/index.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395356456209" ignored="false" />
+    <file path="/index.html" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395356452509" ignored="false" />
     <file path="$PROJECT_DIR$/../digistore/app/templates/admin.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395204950696" ignored="false" />
     <file path="/admin.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395204948560" ignored="false" />
-    <file path="$PROJECT_DIR$/../digistore/app/scripts/templates.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395258925659" ignored="false" />
-    <file path="$PROJECT_DIR$/../digistore/app/scripts/router.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205337047" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/templates.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395368536995" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/router.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395356588883" ignored="false" />
     <file path="/router.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395204504422" ignored="false" />
-    <file path="$PROJECT_DIR$/../digistore/app/scripts/routes/checkout.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205272925" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/routes/checkout.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395356238460" ignored="false" />
     <file path="$PROJECT_DIR$/../digistore/app/templates/cart.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205816287" ignored="false" />
     <file path="/cart.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205318279" ignored="false" />
-    <file path="$PROJECT_DIR$/../digistore/app/templates/checkout.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205557351" ignored="false" />
-    <file path="/checkout.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205557351" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/templates/checkout.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395356171675" ignored="false" />
+    <file path="/checkout.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395281416596" ignored="false" />
     <file path="$PROJECT_DIR$/../digistore/app/templates/application.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205648033" ignored="false" />
     <file path="/application.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205636228" ignored="false" />
     <file path="$PROJECT_DIR$/../digistore/app/templates/product.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395205833590" ignored="false" />
     <file path="$PROJECT_DIR$/../digistore/bower_components/bootstrap/dist/css/bootstrap.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395206143223" ignored="false" />
     <file path="/bootstrap.css" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395206052973" ignored="false" />
     <file path="/productNew.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395256677380" ignored="false" />
+    <file path="$PROJECT_DIR$/../storeServer/app/controllers/orders_controller.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395338036844" ignored="false" />
+    <file path="$PROJECT_DIR$/../storeServer/db/schema.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395337575534" ignored="false" />
+    <file path="$PROJECT_DIR$/../storeServer/app/models/order.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395337669919" ignored="false" />
+    <file path="/order.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395337669573" ignored="false" />
+    <file path="/orders_controller.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395337990590" ignored="false" />
+    <file path="$PROJECT_DIR$/../storeServer/app/models/product.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395355520109" ignored="false" />
+    <file path="$PROJECT_DIR$/../storeServer/config/routes.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395355569301" ignored="false" />
+    <file path="/routes.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395355559161" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/models/order.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395355693077" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/routes/confirmation.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395355734975" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/routes/cart.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395355814554" ignored="false" />
+    <file path="/cart.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395355813283" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/templates/confirmation.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395356334403" ignored="false" />
+    <file path="/confirmation.handlebars" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395356325951" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/models/product.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395362358768" ignored="false" />
+    <file path="/product.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395362349604" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/routes/application.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395362405793" ignored="false" />
+    <file path="$PROJECT_DIR$/../storeServer/app/views/orders/index.json.jbuilder" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395365890336" ignored="false" />
+    <file path="$PROJECT_DIR$/../storeServer/app/views/orders/show.json.jbuilder" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395365883967" ignored="false" />
+    <file path="$PROJECT_DIR$/../digistore/app/scripts/controllers/appication.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395419845532" ignored="false" />
+    <file path="/appication.js" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395419813232" ignored="false" />
+    <file path="$PROJECT_DIR$/../sks-dump-parser/rakefile" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395941249556" ignored="false" />
+    <file path="$PROJECT_DIR$/../sks-dump-parser/sks-parser.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395958095304" ignored="false" />
+    <file path="/sks-parser.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395953614973" ignored="false" />
+    <file path="$PROJECT_DIR$/../sks-dump-parser/dumpfile.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395859291924" ignored="false" />
+    <file path="$PROJECT_DIR$/../sks-dump-parser/_tmp_hash.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395879495847" ignored="false" />
+    <file path="/_tmp_hash.txt" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395879418920" ignored="false" />
+    <file path="/_tmp_hash.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395879748321" ignored="false" />
+    <file path="$PROJECT_DIR$/../sks-dump-parser/_tmp_hash.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395880126516" ignored="false" />
+    <file path="$PROJECT_DIR$/../sks-dump-parser/spec/sks-parser_spec.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395879947585" ignored="false" />
+    <file path="/sks-parser_spec.rb" changelist="dfa6fad8-15f3-41c7-ae8a-a94a66efbdf5" time="1395879937709" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,10 +238,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/blog.rb">
+      <file leaf-file-name="about.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/about.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="27" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.0">
+            <state line="20" column="21" selection-start="838" selection-end="838" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
@@ -226,19 +256,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog14.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blog14.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/blog14.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="78" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.7414449">
+            <state line="26" column="78" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog11.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles/blog11.html">
+      <file leaf-file-name="blog15.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/articles/blog15.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="114" selection-start="958" selection-end="958" vertical-scroll-proportion="-6.875">
+            <state line="4" column="89" selection-start="192" selection-end="192" vertical-scroll-proportion="0.115384616">
               <folding />
             </state>
           </provider>
@@ -276,15 +306,15 @@
         <option value="$PROJECT_DIR$/views/russian.erb" />
         <option value="$PROJECT_DIR$/articles/blog13.html" />
         <option value="$PROJECT_DIR$/articles/blog12.html" />
-        <option value="$PROJECT_DIR$/articles/blog15.html" />
         <option value="$PROJECT_DIR$/articles/blog14.html" />
+        <option value="$PROJECT_DIR$/articles/blog15.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1419" />
-    <option name="height" value="698" />
+    <option name="width" value="1280" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -370,7 +400,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -386,6 +415,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sinatra practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinatra practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinatra practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinatra practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinatra practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinatra practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinatra practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,6 +494,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -436,11 +512,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.27731094" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -630,14 +706,14 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1419" height="698" extended-state="1" />
+    <frame x="0" y="22" width="1280" height="705" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980111" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13825215" sideWeight="0.7812245" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15354018" sideWeight="0.7812245" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -726,6 +802,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/articles/blog14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="78" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/blog15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/analytics.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="23" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" />
@@ -756,11 +846,6 @@
         <state line="21" column="64" selection-start="869" selection-end="869" vertical-scroll-proportion="0.61764705" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="838" selection-end="838" vertical-scroll-proportion="0.5628518" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="0.51166964" />
@@ -768,9 +853,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/blog10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/blog11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="114" selection-start="958" selection-end="958" vertical-scroll-proportion="-6.875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
@@ -780,9 +868,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/blog11.html">
+    <entry file="file://$PROJECT_DIR$/articles/blog14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="114" selection-start="958" selection-end="958" vertical-scroll-proportion="-6.875">
+        <state line="26" column="78" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -794,9 +882,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/blog14.html">
+    <entry file="file://$PROJECT_DIR$/views/about.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="78" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.7414449">
+        <state line="20" column="21" selection-start="838" selection-end="838" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/blog15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="89" selection-start="192" selection-end="192" vertical-scroll-proportion="0.115384616">
           <folding />
         </state>
       </provider>
