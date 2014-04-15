@@ -1,0 +1,16 @@
+date: 2014-04-12
+title: Gem in the rough
+
+<p>I authored my first gem!</p>
+<p>It's actually not difficult, even for a n00b. All the info is right here at <a href="http://guides.rubygems.org">Rubygems.org</a>.
+Be sure to follow the naming conventions, those are very useful. My biggest piece of advice that isn't in the guides and in hindsight
+ seems obvious is to add descriptive exceptions to your gem in case something doesn't work. Just getting nil is super frustrating.</p>
+
+<p>My gem is called sks_dump_parser. The user can download the <a href="http://www.keysigning.org/sks/">SKS keydump</a> and call my parser,
+    passing the directory your dump is in. This returns a useful hash containing keyids and all of their signatures. The gem basically works
+at this point, but needs some improvement. It'll be fixed by the time you read this.</p>
+
+<p>The sks_dump_parser uses a <a href="http://en.wikipedia.org/wiki/UML_state_machine">state machine</a> to parse the outputs of
+    <code>gpg --list-packets</code> of the bunzip2'ed files. I've used state machines a few times before -- back when I wrote
+    <a href="https://github.com/suewhite/The-Master-of-the-Mind">Mastermind</a>,
+I needed to keep track of the user's previous guesses to determine what state the game was in. When do you need a state machine? You'll just know.</p>
