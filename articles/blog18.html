@@ -1,0 +1,23 @@
+date: 2014-04-25
+title: PGP Neighbors
+
+<p>I created <a href="pgpneighbors.us">PGP Neighbors</a> for my capstone project at Ada. Check out the site -- you'll see that
+ there are no frills. You won't spend hours captivated by fading images or interactive maps. This site is purely informational,
+and the fun is in gamifying the Web of Trust. If you're not familiar with concepts surrounding PGP, read the <a href="pgpneighbors.us/about">about</a>
+ page. PGP Neighbors allows users to see "friends of friends." By "friends," I mean people whose identities have been verified. Same thing, right?
+You can enter your keyid and the number of degrees of separation you'd like to see. PGP Neighbors recursively checks the Postgresql
+database for signatures on keys, and generates a list. If someone in that list is a link to their Wikipedia page,
+then congrats -- someone famous is in your immediate vicinity in the Web of Trust.
+</p>
+<p>By now, you might feel compelled to gather more signatures, bringing you closer to celebrities. That feeling is normal, and is the intention
+of this application. The next step up would be to assign scores to people depending on whether they are on Wikipedia, how many sigs they have,
+how many of their sigs are famous, how large their key is, etc. Also a scoreboard would be sweet. For now, just play with it. Unfortunately, you'll see a lot
+of "unknown" names. This is because they are missing from niif's keydump. If you know of a better maintained keydump, please let me know! That'll fix a lot. And don't be
+too star-struck if you find that you're only a couple degrees of separation away from Linus Torvalds. It means you're pretty cool, but try not to
+let it inflate your head.
+</p>
+<p>So, this application was very algorithm-heavy. The entire Web of Trust has never been parsed before, at least as an open-source library.
+That's because it's really difficult. As a person with one out of over 1.3 million keys in the WoT, I was the first to do this. I wrote a
+<a href="https://rubygems.org/gems/sks_dump_parser">Ruby Gem</a> called sks_dump_parser. I discussed this in my previous blog entry.
+ It uses an advanced state machine to parse 143 very unpredictable text files. It is on <a href="https://github.com/suewhite/sks-dump-parser">Github</a>,
+so feel free to contribute. It's not perfect.</p>
